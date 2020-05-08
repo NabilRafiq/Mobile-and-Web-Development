@@ -1,0 +1,173 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;}
+.donation_bar{
+  background-color: rgb(40, 103, 185);
+}
+.donation_bar .icons{
+  text-align: center;
+}
+.donation_bar .icons i{
+  font-size: 13px;
+  color: white;
+  padding: 15px;
+}
+.donation_bar .text{
+  color: white;
+  padding: 10px 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
+.donation_bar .buttons{
+  padding: 10px;
+  width: auto;
+  text-align: center;
+}
+.donation_bar .buttons button{
+  color: green;
+  border: 1px solid black;
+  padding: 3px 10px;
+  font-size: 13px;
+}
+.donation_bar .mod{
+  padding: 0;
+}
+#navbar1{
+  background-color: #faf8f2;
+}
+.nav a{
+color: black;
+}
+.nav a:hover{
+  color: white;
+  border-radius: 3px;
+  background-color: #4287f5;
+  }
+.slider{
+  padding-bottom: 5px;
+}
+#marquee{
+  background-color: #4287f5;
+  color: white;
+}
+#abovepara{
+  text-align: center;
+}
+#mid{
+  background:#f0f5f2;
+  padding: 15px;
+  margin-top: 5px;
+  }
+#mid p{
+color: #8c918e;
+font-size: 14px;
+text-align: justify;
+margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+.colorit{
+  color: #00FF00;
+}
+#cardss{
+  background-color: #f0f5f2!important;
+  padding: 15px;
+  color: #4287f5;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card p{
+ text-align: center;
+ padding: 5px;}
+.card h6{
+  text-transform: uppercase!important;
+  text-align: center;
+}
+#cardacard{
+  padding: 15px;
+}
+#cardacard .card{
+  background-color: #fff;
+  color: #4287f5;
+  text-transform: uppercase;
+}
+#gallery{
+  padding: 5px;
+}
+#gallery h1{
+  text-align: center!important;
+}
+#gimage{
+  padding: 5px;
+}
+.footer1{
+  background-color: #212633;
+  color: white;
+}
+@media only screen and (min-width: 1441px){
+  .container{
+      max-width: 65%;
+  }
+  .donation_bar .icons{
+      text-align: center;
+  }
+  .donation_bar .buttons{
+      padding: 10px;
+      width: auto;
+      text-align: center;
+  }
+  .card-deck-wrapper {margin-right:0;margin-left:0;}
+	.card-deck {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: .75rem;
+	    table-layout: fixed;
+	    border-spacing: 1.25rem 0;
+	}
+	.card-deck .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	}
+  
+  .card-deck .card:not(:first-child) {
+    margin-left: 0px;
+}
+.blockkarisko>li{
+  display: block!important;
+}
+}
+@media (max-width: 950px) { 
+	
+	.card-deck-wrapper {margin-right:0;margin-left:0;}
+	.card-deck {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: .75rem;
+	    table-layout: fixed;
+	    border-spacing: 1.25rem 0;
+	}
+	.card-deck .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	}
+  
+  .card-deck .card:not(:first-child) {
+    margin-left: 0px;
+}
+ 
+}
+
+@media only screen and (max-width: 415px){
+  .navbar .try{
+    position: absolute;
+    left: auto;
+    right: 0;
+  }
+}
+
+
+
